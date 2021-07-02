@@ -1,0 +1,184 @@
+* {
+  font-size: 14px;
+}
+
+.pin-form {
+  background-color: #ffffff;
+}
+
+.incorrect-password {
+  position: absolute;
+  width: 300px;
+  height: 15px;
+  margin-top: 4px;
+  background-color: #d40000;
+  color: #ffffff;
+  opacity: 0%;
+  font-size: 12px;
+  padding-left: 115px;
+  user-select: none;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 25px 120px;
+  border: 1px solid #b4b4b4;
+  background-image: url('../img/avatar.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.title {
+  margin-left: 125px;
+  user-select: none;
+}
+
+.fill-indicators-box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fill-indicator {
+  border: 1px solid #b4b4b4;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin: 0px 10px;
+}
+
+.filled {
+  border: none;
+  background-color: #e65f5b;
+}
+
+.buttons-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  margin: 15px 0px 10px;
+}
+
+.number-input-button {
+  font-size: 24px;
+  border: 1px solid #b4b4b4;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.number-input-button:hover {
+  background-color: #e65f5b;
+  border: none;
+}
+
+.additional-button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.scanner-activator {
+  background-image: url('../img/scan.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 36px;
+  height: 35px;
+}
+
+.backspace {
+  background-image: url('../img/backspace.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+.forgot-password-link {
+  margin-left: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+@media (max-width:1024px) {
+
+  .pin-form {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0;
+  }
+
+  .avatar {
+    width: 220px;
+    height: 220px;
+    margin: 100px 400px 80px;
+    border: 3px solid #b4b4b4;
+  }
+
+  .title {
+    font-size: 54px;
+    margin-left: 410px;
+  }
+
+  .fill-indicators-box {
+    margin-top: 50px;
+  }
+
+  .fill-indicator {
+    width: 45px;
+    height: 45px;
+    margin: 0px 35px;
+    border: 3px solid #b4b4b4;
+  }
+
+  .buttons-box {
+    margin: 70px 0px 100px;
+  }
+
+  .number-input-button {
+    width: 220px;
+    height: 220px;
+    margin: 40px;
+    font-size: 84px;
+    border: 3px solid #b4b4b4;
+  }
+
+  .additional-button {
+    width: 220px;
+    height: 220px;
+    margin: 50px;
+  }
+
+  .scanner-activator {
+    width: 140px;
+    height: 140px;
+  }
+
+  .backspace {
+    width: 90px;
+    height: 90px;
+  }
+
+  .forgot-password-link a {
+    font-size: 54px;
+    margin-left: 50px;
+  }
+}

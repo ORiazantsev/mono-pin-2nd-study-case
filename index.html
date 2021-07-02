@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <title>Mono</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <script type="text/javascript" src="js/index.js"> </script>
+</head>
+
+<body onload="loginCheck()">
+  <div class="pin-form">
+    <div class="incorrect-password">Невірний ПІН</div>
+    <div class="avatar"></div>
+    <span class="title">ПІН-код</span>
+    <div class="fill-indicators-box">
+      <div class="fill-indicator"></div>
+      <div class="fill-indicator"></div>
+      <div class="fill-indicator"></div>
+      <div class="fill-indicator"></div>
+    </div>
+    <div class="buttons-box">
+      <div class="number-input-button" onclick="onNumberButtonClick(1)">1</div>
+      <div class="number-input-button" onclick="onNumberButtonClick(2)">2</div>
+      <div class="number-input-button" onclick="onNumberButtonClick(3)">3</div>
+      <div class="number-input-button" onclick="onNumberButtonClick(4)">4</div>
+      <div class="number-input-button" onclick="onNumberButtonClick(5)">5</div>
+      <div class="number-input-button" onclick="onNumberButtonClick(6)">6</div>
+      <div class="number-input-button" onclick="onNumberButtonClick(7)">7</div>
+      <div class="number-input-button" onclick="onNumberButtonClick(8)">8</div>
+      <div class="number-input-button" onclick="onNumberButtonClick(9)">9</div>
+      <div class="additional-button">
+        <div class="scanner-activator"></div>
+      </div>
+      <div class="number-input-button" onclick="onNumberButtonClick(0)">0</div>
+      <div class="additional-button">
+        <div class="backspace" onclick="unfillingIndicators()"></div>
+      </div>
+    </div>
+    <span class="forgot-password-link"><a>Забули ПІН-код?</a></span>
+  </div>
+</body>
+
+</html>

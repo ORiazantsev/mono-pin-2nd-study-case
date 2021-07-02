@@ -1,0 +1,276 @@
+* {
+  font-size: 11px;
+  letter-spacing: 0.4px;
+}
+
+.balance-form {
+  background: linear-gradient(45deg, #4262d1, #e0aaaa);
+}
+
+.balance-amount {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 40px 20px;
+  user-select: none;
+}
+
+.account-balance {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.separate-cash {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 50px;
+  height: 25px;
+  margin: 42px 95px;
+}
+
+.menu {
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  margin-top: 150px;
+}
+
+.indicators-box {
+  position: absolute;
+  width: 300px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indicator {
+  width: 5px;
+  height: 5px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 0px 5px;
+  opacity: 70%;
+}
+
+.menu-buttons-box {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.menu-item {
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  border-radius: 50%;
+  box-shadow: 5px #708090;
+  margin: 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.in-icon {
+  background-image: url('../img/in.svg');
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+.out-icon {
+  background-image: url('../img/out.svg');
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+.other-icon {
+  background-image: url('../img/other.svg');
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+.menu-items-names-box {
+  position: absolute;
+  width: 300px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.menu-item-name {
+  width: 70px;
+  height: 35px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0px 15px;
+  padding: 5px 0px;
+  user-select: none;
+}
+
+.expense-history {
+  position: absolute;
+  background-color: #ffffff;
+  width: 300px;
+  height: 280px;
+  margin-top: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 12px;
+  color: #8f8f8f;
+  user-select: none;
+}
+
+.function-button {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  border: 1px solid #8f8f8f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.statistics {
+  background-image: url('../img/equalizer.svg');
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  margin-bottom: 2px;
+  opacity: 70%;
+}
+
+.search {
+  background-image: url('../img/search.svg');
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  opacity: 70%;
+}
+
+#expense-list {
+  width: 300px;
+  height: 150px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.expense-box {
+  width: 280px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.expense-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.refill {
+  background-color: #000000;
+  margin: 0px;
+}
+
+.food {
+  background-color: #e4640f;
+  margin: 0px;
+}
+
+.cafe {
+  background-color: #ae0dce;
+  margin: 0px;
+}
+
+.expense-names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 260px;
+  height: 40px;
+  line-height: 15px;
+}
+
+.expense-title {
+  font-size: 13px;
+}
+
+.expense-description {
+  color: #7e7e7e;
+}
+
+.expense-sum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  letter-spacing: 1px;
+  width: 60px;
+  height: 40px;
+}
+
+.exit {
+  position: absolute;
+  width: 200px;
+  height: 35px;
+  color: #ffffff;
+  background-color: #e65f5b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  margin-top: 220px;
+  font-size: 14px;
+  user-select: none;
+}
+
+@media (max-width:1024px) {
+
+  .balance-form {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0;
+  }
+}
